@@ -31,14 +31,18 @@
             <option value="outro">Outro</option>
         </select><br><br>
 
-        <label for="linguagem">Linguagem de interesse:</label><br>
-        <select id="linguagem" name="linguagem">
-            <option value="">Selecione...</option>
-            <option value="python">Python</option>
-            <option value="java">Java</option>
-            <option value="csharp">C#</option>
-            <option value="r">Linguagem R</option>
-        </select><br><br>
+        <label>Linguagens de interesse:</label><br>
+        <input type="checkbox" id="python" name="linguagem[]" value="Python">
+        <label for="python">Python</label><br>
+
+        <input type="checkbox" id="java" name="linguagem[]" value="Java">
+        <label for="java">Java</label><br>
+
+        <input type="checkbox" id="csharp" name="linguagem[]" value="C#">
+        <label for="csharp">C#</label><br>
+
+        <input type="checkbox" id="r" name="linguagem[]" value="R">
+        <label for="r">Linguagem R</label><br><br>
 
         <label for="mensagem">Mensagem:</label><br>
         <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br><br>
